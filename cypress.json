@@ -1,0 +1,14 @@
+{
+    "defaultCommandTimeout": 5000,
+    "chromeWebSecurity": false,
+    
+    "reporter":"cypress-mochawesome-reporter",
+    "reporterOptions":
+    {
+        "charts": true,
+        "overwrite":false,
+        "html":false,
+        "json":true,
+        "reportDir":"cypress/reports"
+    }
+}
